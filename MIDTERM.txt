@@ -1,0 +1,70 @@
+MIDTERM SHIT
+
+
+HOME- 
+CHOICES: 
+	- Sleep
+	- Eat
+	- Scavenge
+	- Leave 
+DESCRIPTIONS:
+	HOME
+	- Your eyelids droop at thought of staying awake any longer
+	- You lay there indescively...
+	- You're hungry
+	
+	
+SLEEP-
+	- Sleep my child
+	- You slept tight
+	- You were awaken by the sounds of coldplay and gunshots
+	- You tossed and turned  all night
+AFTER SLEEP-
+	- You awake from your slumber to find you're still alive... you try to find the strength to carry on.
+	- You were on the cusp of remembering something important... It's bothering you.
+	- You cant remember your dreams... It drives you crazy
+	- You wake in a cold sweat.... the only thing you remember is.... "jethro"
+	
+
+EAT-
+	- You pig out!
+	- You ate waaay too much!
+	- Your elated!
+	- You are still hungry
+	- You weren't that hungry.
+
+SCAVENGE- 
+	- You found "Item" 
+	- You found "Item" it brought back painful memories that you wish you could forget.
+	- You found nothing.
+	- You dropped " " 
+	- You found " " You cried tears of joy.
+
+
+The Hole-
+Choices:
+	- Drink
+	- Chill
+	- Leave
+
+DESCRIPTIONS:
+	- You arrived The Hole looks extra shitty today. You notice a blonde sitting by her self.
+	- There're alot more people then usual
+	- The hole seems weird today... Plus john is here
+	- .... You could cut the tension with a knife
+	- Drew looks at you in disgust and refuses to give you a drink
+
+Drink
+	- That moscow mule was amazing
+	- You ordered the cheapest whiskey.... as if you were punshing yourself.
+	- You guzzled it down... another?
+	- You didnt finish it...
+
+
+
+
+ 
+
+
+
+
