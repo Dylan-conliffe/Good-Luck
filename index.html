@@ -1,36 +1,50 @@
-<!DOCTYPE>
+<!DOCTYPE html>
 <html ng-app="GoodLuck">
+
 <head>
-    
- 
-<audio autoplay controls>
-  <source class="noise" src="noise.wav" type="audio/mpeg">
+  <title>Make good choices!</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script src="//cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+  <script src="main.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
+  <link href="main.css" rel="stylesheet" />
+
+
+  <audio autoplay controls>
+ <!-- <source class="noise" src="noise.wav" type="audio/mpeg"> -->
 </audio>
 </head>
-<body ng-controller="DontDieC as Gctrl">
 
-  <head>
-    <title>Make good choices</title>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script src="main.js">
-    </script>
-    <link href="https://fonts.googleapis.com/css?family=Freckle+Face" rel="stylesheet">
-    <link href="main.css" rel="stylesheet" /> </head>
+<body ng-controller="DontDie as Gctrl">
 
 
-<div>
-  
-
-  <h1 class="glitch" data-text = 'Good Luck!'</h1>
-  <p><button onclick="StartGame()">play</button></p>
 
   <div>
-<div>
-  <p id="play"></p>
-</div>
 
 
+    <h1 class="glitch" data-text='Good Luck!' </h1>
+    <p ng-hide="Goaway" class="typewriter"> " Your eyes are heavy...you smell like regrets and failure...Worst part is you have no idea who YOU ARE....'" </p>
+
+
+    <button ng-hide="Goaway" , ng-click="Gctrl.StartGame() ;Goaway = !Goaway; ">play</button>
+
+    <div>
+      <div>
+        <p id="play"></p>
+      </div>
+      <h2  ng-class="{typewriter : Gctrl.ActiveRoom}">{{Gctrl.ActiveRoom.Description[0]}}</h2>
+      <section>
+        <p  ng-class="{typewriter : Gctrl.ActiveRoom}"> {{Gctrl.ChoiceText}}
+        </p>
+        <ul>
+
+          <li ng-repeat="Choice in Gctrl.ActiveRoom.Choices" ng-click="Gctrl.dothing(Choice)">{{Choice}}</li>
+          <li> </li>
+
+          <li ng-repeat="room in Gctrl.ActiveRoom.Leave" ng-if="Gctrl.isLeaving" ng-click="Gctrl.ChangeRoom(room)">{{room}}</li>
+
+        </ul>
+      </section>
 </body>
 
 </html>
