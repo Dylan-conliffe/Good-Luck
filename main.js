@@ -50,7 +50,7 @@ function DontDieC(LuckyFactory, $timeout) {
         console.log("Room choices: ", Gctrl.ActiveRoom.Leave);
         Gctrl.isLeaving = true;
         console.info('working?');
-       
+
 
 
     }
@@ -59,7 +59,7 @@ function DontDieC(LuckyFactory, $timeout) {
         Gctrl.isLeaving = false;
         Gctrl.ActiveRoom = LuckyFactory.Room[room];
         console.log("Changed room to: ", room)
-         Gctrl.ChoiceText = ""
+        Gctrl.ChoiceText = ""
     }
     Gctrl.Des = function(Description) {
         var rand = Math.floor((Math.random() * Gctrl.ActiveRoom.Description.length))
@@ -111,7 +111,7 @@ function LuckyFactory() {
     };
     //  ************************HOME********************
     var Home = new Room({
-        name: 'Home ...“ Fucking peace and quiet in the land with no sun.”',
+        name: 'Home ...“  peace and quiet in the land with no sun.”',
 
         Description: [" Your eyelids droop at thought of staying awake any longer",
             "You lay there indecisively...",
@@ -160,7 +160,7 @@ function LuckyFactory() {
         Name: 'The Hole...“ A place for fun in the land with no sun.”',
 
         Description: [
-            "You arrived! The Hole looks extra shitty today. You notice a blonde sitting by herself.",
+            "You arrived! The Hole looks extra crappy today. You notice a blonde sitting by herself.",
             " There's a lot more people than usual",
             " The hole seems weird today... Plus john is here",
             " .... You could cut the tension with a knife",
@@ -212,10 +212,10 @@ function LuckyFactory() {
         Choices: ['Gather Info', 'Research', 'Leave'],
 
         Things: {
-            'Gather Info': [' “ Rumor is old man  Jenkins keeps a stash of drugs!',
-                ' “ Rumor is you can find  A good time at TheHole ',
-                ' “No new information for ya! Sorry”',
-                "“Your plug didn't show up”"
+            'Gather Info': [' Rumor is old man  Jenkins keeps a stash of drugs!',
+                '  Rumor is you can find  A good time at TheHole ',
+                ' No new information for ya! Sorry',
+                "Your plug didn't show up"
 
             ],
 
